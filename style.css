@@ -21,7 +21,7 @@ button:focus {
 
 a:link a:active,
 a:visited,
-{
+	{
 	text-decoration: none !important;
 }
 
@@ -402,37 +402,31 @@ h6 {
 
 /*SKill*/
 
-.skillbar {
-	width: 50%;
-	height: 25px;
-	border: 1px solid #fff;
-	margin: 10px 0;
+.get {
+	display: none;
 }
 
-.skill-items {
-	height: 100%;
-	background: blue;
-	width: 80%;
-	text-align: center;
-	text-transform: uppercase;
-	font-weight: 600;
-	font-size: 13px;
-	line-height: 25px;
+#diagram {
+	float: left;
+	width: 600px;
+	height: 600px;
 }
 
-.css {
-	width: 75%;
+.skill-text {
+	margin-top: 150px;
+	display: block;
+	ma 0 grid-auto-columns: ;
+	margin: 60px auto 0;
+	max-width: 100px;
 }
 
-.jq,
-.jscript {
-	width: 65%;
+.skill-text ul {
+	list-style: none;
 }
 
-.php {
-	width: 60%
-}
-
-.skill-items p {
-	margin-bottom: 0;
+.skill-text li {
+	display: block;
+	padding-top: 25px;
+	font-size: 40px;
+	font-weight: 700;
 }
